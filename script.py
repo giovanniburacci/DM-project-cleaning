@@ -55,6 +55,8 @@ abbrev2state = {
     'PR': 'Puerto Rico',
     'VI': 'Virgin Islands'
 }
+
+# transforming two-letter 'State' column in a full name, so that it can be related to the spatial file
 abbrev2state = {k.lower(): v for k, v in abbrev2state.items()}
 
 
